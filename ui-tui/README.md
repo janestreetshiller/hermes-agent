@@ -95,7 +95,7 @@ npm run test:watch
 
 - `types.ts` — `SlashCommand` interface and `SlashRunCtx` execution context (gateway rpc, transcript helpers, session refs, stale-guard)
 - `registry.ts` — assembles `SLASH_COMMANDS` from all command files in registration order (core → billing → credits → session → ops → setup → debug) and exposes `findSlashCommand(name)` for case-insensitive lookup
-- `commands/core.ts` — general TUI commands
+- `commands/core.ts` — required general TUI commands; `registry.ts` imports this runtime module, so it must remain present even when pruning documentation-only files
 - `commands/billing.ts` — `/billing`: manage Nous terminal billing — buy credits, auto-reload, limits
 - `commands/credits.ts` — `/credits`
 - `commands/session.ts` — session and agent commands
