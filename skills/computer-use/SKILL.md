@@ -114,8 +114,7 @@ Use the host's idiomatic modifier:
 | Address bar | `cmd+l` | `ctrl+l` |
 | App switcher | `cmd+tab` | `alt+tab` |
 
-When in doubt, capture and look for menu hints, or ask the user which
-shortcut to use.
+When in doubt, capture and look for menu hints.
 
 ## Background rules (the whole point)
 

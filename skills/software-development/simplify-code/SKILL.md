@@ -35,7 +35,7 @@ Optional modifiers the user may add — honor them:
   (or weight the aggregation toward it). Recognized focuses: `reuse`,
   `quality`, `efficiency`.
 - **Dry run:** "simplify but don't change anything" / "just report" → run the
-  three reviewers, present findings, apply NOTHING. Ask before applying.
+  three reviewers, present findings, apply nothing.
 - **Scope:** "simplify the last commit" / "simplify staged" / "simplify
   src/foo.py" → narrow the diff source accordingly (see Phase 1).
 
